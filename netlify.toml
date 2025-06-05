@@ -1,5 +1,5 @@
 [build]
-  command = "echo 'Building Open Frame...' && cp frame.json dist/frame.json"
+  command = "mkdir -p dist; cp frame.json dist/"
   publish = "dist"
 
 [context.production]
