@@ -1,2 +1,2 @@
 # open-frame
-Open Frame  for Farcaster or Base names
+This is an Open Frame that contains an iframe.
