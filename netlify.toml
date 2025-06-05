@@ -1,0 +1,9 @@
+[build]
+  command = "echo 'Building Open Frame...' && cp frame.json dist/frame.json"
+  publish = "dist"
+
+[context.production]
+  target = "production"
+
+[context.deploy-preview]
+  target = "deploy-preview"
